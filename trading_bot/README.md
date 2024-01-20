@@ -45,8 +45,7 @@
 - Faster serialization/deserialization.
 - Faster oracles/prediction models.
 
-----------------------------
-### Assignment
+## Assignment
 Building an Exchange OrderBook:
 - Lets write an orderbook in nodejs
 - Users can <br>
