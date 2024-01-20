@@ -49,11 +49,11 @@
 ### Assignment
 Building an Exchange OrderBook:
 - Lets write an orderbook in nodejs
-- Users can
-a) Place limit orders.
-b) If an order can be executed (partially or completely) it is filled.
-c) Users can query the depth chart.
+- Users can <br>
+a) Place limit orders. <br>
+b) If an order can be executed (partially or completely) it is filled.<br>
+c) Users can query the depth chart.<br>
 d) Users can get back their balance.
-- Assignment
-a) Allow users to fetch quotes for market orders.
+- Assignment<br>
+a) Allow users to fetch quotes for market orders.<br>
 b) Send a market order using the endpoint above.
