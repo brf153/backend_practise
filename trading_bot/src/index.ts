@@ -1,10 +1,13 @@
 import express from 'express';
-import { PrismaClient } from '@prisma/client';
+// import { PrismaClient } from '@prisma/client';
 import userRoute from './routes/userRoute';
+import * as dotenv from 'dotenv';
+import path from "path"
 
 const app = express();
+dotenv.config({path: path.resolve(__dirname, '../.env')});
 const PORT = process.env.PORT || 5000;
-const prisma = new PrismaClient();
+// const prisma = new PrismaClient();
 
 app.use(express.json());
 
